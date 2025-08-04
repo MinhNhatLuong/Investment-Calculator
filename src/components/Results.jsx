@@ -6,7 +6,7 @@ export default function Results({ input }) {
   //   resultData[0].valueEndOfYear -
   //   resultData[0].interest -
   //   resultData[0].annualInvestment;
-  const initialInvesment = input.initialInvesment;
+  const initialInvesment = +input.initialInvestment;
 
   return (
     <table id="result">
