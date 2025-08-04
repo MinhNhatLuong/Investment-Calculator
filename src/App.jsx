@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import UserInput from "./components/Userinput";
+import Results from "./components/Results";
 
 function App() {
   const [investmentObj, setInvestmentObj] = useState({
@@ -17,12 +18,11 @@ function App() {
     }))
   }
 
-  console.log(investmentObj);
-  
   return (
     <>
       <Header />
-      <UserInput investmentObj={investmentObj} handleUserInput={handleUserInput} />
+      <UserInput userInput={investmentObj} handleUserInput={handleUserInput} />
+      <Results input={investmentObj} />
     </>
   );
 }
