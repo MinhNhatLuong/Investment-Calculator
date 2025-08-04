@@ -1,14 +1,6 @@
 # Investment Calculator
 
-## Description
-
-The Investment Calculator is a modern, user-friendly web application built with React.js and Vite that helps individuals make informed financial decisions about their investments. This interactive tool enables users to visualize their potential investment growth over time by considering multiple financial parameters.
-
-The calculator takes into account crucial investment factors such as initial investment amount, annual contributions, expected return rate, and investment duration to provide detailed projections of your investment's future value. It uses compound interest calculations to demonstrate how your money could grow over time, helping you plan for long-term financial goals like retirement, education savings, or wealth building.
-
-What sets this calculator apart is its real-time calculation feature – as soon as users input or modify any parameter, the results update instantly, providing immediate feedback on how different scenarios might affect their investment outcomes. The results are presented in a clear, easy-to-understand format, showing both the accumulated interest and the total investment value year by year.
-
-The application features a clean, intuitive interface designed for both financial novices and experienced investors. It's built with modern web technologies ensuring fast performance, responsive design, and a seamless user experience across different devices and screen sizes.
+This is a React-based Investment Calculator application that helps users calculate their investment returns based on various parameters.
 
 ## Technologies Used
 
