@@ -98,10 +98,6 @@ npm run build
 
 This will generate a `dist` folder with optimized production files.
 
-## License
-
-[MIT License](LICENSE)
-
 ## Author
 
 MinhNhatLuong
