@@ -18,11 +18,13 @@ function App() {
     }))
   }
 
+  const validInput = (investmentObj.duration > 0);
+
   return (
     <>
       <Header />
       <UserInput userInput={investmentObj} handleUserInput={handleUserInput} />
-      <Results input={investmentObj} />
+      {validInput ? <Results input={investmentObj} /> : <p className="center">Duration must be greater than 0!</p>}
     </>
   );
 }
